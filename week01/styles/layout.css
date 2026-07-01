@@ -1,0 +1,51 @@
+*{
+    font-size: 20px;
+}
+h1{
+    background-color: gray;
+    color: aliceblue;
+    padding: 30px;
+    margin:0px;
+    padding-top: 15px;
+    padding-left: 12px;
+}
+header nav{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    gap: 100px;
+    
+}
+main div{
+    background-color: rgba(240, 248, 255, 0.512);
+    color:rgb(53, 50, 50) ;
+    padding: 150px;
+    
+
+    
+}
+
+main h2,main h3{
+    margin: 0;
+    text-align:left ;
+}
+main{
+    display: grid;
+    grid-template-columns:2fr 1fr ;
+    background-color: rgb(121, 121, 121);
+}
+
+aside{
+    background-color: white;
+    color: rgb(52, 51, 51);
+}
+
+footer{
+    background-color: rgb(77, 75, 75);
+    color: white;
+    text-align: center;
+    padding: 100px;
+    padding-top: 10px;
+
+}
