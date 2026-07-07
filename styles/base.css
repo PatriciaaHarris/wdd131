@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: rgb(43, 80, 131);
+    text-align: center;
+    color: white;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+#course-title {
+    display: block;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(119, 119, 119);
+    color: white;
+}
+nav a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    
+
+}
+main h1{
+    text-align: center;
+    
+}
+
+main h2{
+    text-align: center;
+    background-color: rgb(43, 80, 131);
+    
+
+}
+footer{
+    text-align: center;
+    background-color: rgb(43, 80, 131);
+    color: white;
+
+}
+
+.img-right{
+    float: right;
+    width: 150px;
+    margin: 60px;
+
+}
+
+.img-left{
+    float: left;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+
+
+.card:nth-of-type(2) img {
+    width: 150px;
+}
+
+.content-box{
+    border: 2px solid #2b5083;
+    border-radius: 7px;
+    padding: 1rem;
+    display: grid;
+
+}
+.card-profile {
+    text-align: center;
+}
+
+.card-country {
+    clear: both;
+}
+
+.card-country h2 {
+    width: 500px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+.card-profile h2{
+    color: white;
+}
+.card-country p{
+    text-align: center;
+    padding: 3rem;
+}
+.card-profile p{
+    text-align: center;
+    padding: 7rem;
+    text-align: center;
+   
+}
+.layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+.side-box {
+    border: 2px solid #2b5083;
+    padding: 1rem;
+    display: grid;
+    align-content: center;
+}
+.side-box h2 {
+    height: auto;
+    margin: 0.5rem 0;  
+    line-height: 1;
+    color: white;
+}
+
+.side-box p{
+    margin: 0.5rem 0;
+}
+.side-box {
+    border: 2px solid #2b5083;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .content-box {
+        grid-template-columns: 1fr;
+    }
+}
+
