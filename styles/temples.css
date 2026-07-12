@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -19,12 +19,13 @@ header {
     position: relative;
 }
 
-header h1 {
+header p {
     font-size: 1.8rem;
     color: white;
+    font-family: "Merriweather", serif;
 }
 
-header.open h1 {
+header.open p {
     display: none;
 }
 
