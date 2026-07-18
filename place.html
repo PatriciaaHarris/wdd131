@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chile Country Page - W 131 - Patrcia H</title>
+    <meta name="description" content="Country page about Chile for WDD 131 assignment">
+    <meta name="author" content="Patricia Harris">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+
+
+</head>
+<body>
+    <header>
+        <h1>Chile</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/chile-large.webp" media="(min-width: 768px)">
+            <img src="images/chile-small.webp" alt="Landscape of Chile">
+        </picture>
+        <section class="data">
+            <h2>Data</h2>
+            <p><strong>Area:</strong> 756,102 km²</p>
+            <p><strong>Population:</strong> 19,600,000</p>
+            <p><strong>Capital:</strong> Santiago</p>
+            <p><strong>Language:</strong> Spanish</p>
+            <p><strong>Currency:</strong> Chilean Peso (CLP)</p>
+            <p><strong>Time Zone:</strong> UTC -4</p>
+            <p><strong>Calling Code:</strong> +56</p>
+            <p><strong>Internet TLD:</strong> .cl</p>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/icono.svg" alt="Partly cloudy weather icon">
+            <p><strong>Temperature:</strong> 8°C</p>
+            <p><strong>Conditions:</strong> Partly Cloudy</p>
+            <p><strong>Wind:</strong> 12 km/h</p>
+            <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🇨🇱 Patricia 🇨🇱 Chile</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

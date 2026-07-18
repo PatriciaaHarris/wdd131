@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) {
+    .weather h2::after {
+    content: " ⛅";
+}
+    .weather img {
+    display: none;
+}
+    main {
+        position: relative;
+    }
+    .data {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 250px;
+}
+
+    .weather {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    width: 250px;
+}
+
+    .data {
+    border-top: none;
+}
+
+    .data,
+    .weather {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+    .data h2,
+    .weather h2 {
+    text-align: left;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.5rem 2rem;
+    width: fit-content;
+}
+
+
+
+
+
+
+}
+

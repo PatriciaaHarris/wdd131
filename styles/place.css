@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #0039A6;     
+    --secondary-color: #D52B1E;   
+    --background-color: #ffffff;  
+    --text-color: #222222;
+    --card-background: #f5f5f5;
+
+    --soft-blue: rgba(0, 57, 166, 0.08);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.5;
+}
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 6px solid var(--secondary-color);
+}
+header h1 {
+    font-size: 2rem;
+}
+picture {
+    display: block;
+}
+
+picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+section {
+    background-color: var(--soft-blue);
+    padding: 1rem;
+    border: 1px solid rgba(0, 57, 166, 0.2);}
+
+
+.data {
+    border-top: 6px solid var(--primary-color);
+}
+
+
+section h2 {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+section p {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.weather img {
+    display: block;
+    width: 60px;
+    margin: 0 auto 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+footer p {
+    margin: 0.3rem 0;
+}
