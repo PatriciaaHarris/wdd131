@@ -40,6 +40,11 @@
     width: fit-content;
 }
 
+    .data h2,
+    .weather h2 {
+    margin-left: -0.9rem;
+}
+
 
 
 
