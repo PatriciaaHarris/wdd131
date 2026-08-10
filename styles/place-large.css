@@ -1,18 +1,18 @@
 @media screen and (min-width: 768px) {
     .weather h2::after {
-    content: " ⛅";
+        content: " ⛅";
 }
     .weather img {
-    display: none;
+        display: none;
 }
     main {
         position: relative;
     }
     .data {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    width: 250px;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        width: 250px;
 }
 
     .weather {
