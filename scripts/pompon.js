@@ -1,24 +1,18 @@
-// ===============================
-// CURRENT YEAR
-// ===============================
+
 
 const currentYear = document.querySelector("#currentyear");
 
 currentYear.textContent = new Date().getFullYear();
  
 
-// ===============================
-// LAST MODIFIED
-// ===============================
+
 
 const lastModified = document.querySelector("#lastModified");
 
 lastModified.textContent = `Last Modification: ${document.lastModified}`;
 
 
-// ===============================
-// HAMBURGER MENU
-// ===============================
+
 
 const menuButton = document.querySelector("#menu");
 
@@ -41,9 +35,7 @@ menuButton.addEventListener("click", () => {
 });
 
 
-// ===============================
-// FAVORITE ACTIVITIES
-// ===============================
+
 
 const favoriteCards = document.querySelector(".favorite-cards");
 
@@ -82,11 +74,6 @@ favoriteCards.innerHTML = favorites.map(favorite => `
     </article>
 
 `).join("");
-
-
-// ===============================
-// LOCAL STORAGE
-// ===============================
 
 let visits = Number(localStorage.getItem("visits-ls")) || 0;
 

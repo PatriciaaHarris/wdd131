@@ -1,0 +1,141 @@
+:root {
+    --primary-color: #7A8F63;
+    --secondary-color: #F8EFD4;
+    --text-color: #1F1F1F;
+
+    --heading-font: "Poppins", sans-serif;
+    --body-font: "Open Sans", sans-serif;
+}
+
+
+/* ---------- RESET ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------- BODY ---------- */
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 100;
+    position: relative;
+}
+
+
+/* ---------- LOGO ---------- */
+
+.logo img {
+    width: 70px;
+}
+
+
+/* ---------- HAMBURGER MENU ---------- */
+
+#menu {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+.navigation {
+    display: none;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+
+    background-color: var(--primary-color);
+}
+
+.navigation.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+
+    padding: 1rem;
+    text-align: center;
+
+    font-family: var(--heading-font);
+}
+
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    text-align: center;
+
+    padding: 2rem 1rem;
+}
+
+
+.footer-navigation a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.footer-navigation a:hover {
+    text-decoration: underline;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+
+    gap: 8rem;
+
+    margin-top: 1rem;
+}
+
+.footer-navigation img {
+    width: 32px;
+    height: 32px;
+
+    transition: transform 0.3s ease;
+}
+
+.footer-navigation img:hover {
+    transform: scale(1.1);
+}
