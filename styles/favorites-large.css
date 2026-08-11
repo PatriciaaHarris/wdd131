@@ -29,4 +29,149 @@
         gap: 2rem;
     }
 
+   
+/* ---------- FAVORITES INTRO ---------- */
+
+    .favorites-intro {
+        max-width: 1200px;
+        margin: auto;
+        padding: 5rem 2rem;
+
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
+    .favorites-intro-text {
+        text-align: left;
+    }
+
+    .favorites-intro h1 {
+        font-size: 3rem;
+    }
+
+    .favorites-intro-text p {
+        margin: 0;
+        font-size: 1.1rem;
+    }
+
+    .favorites-intro-image img {
+        max-width: none;
+        height: 450px;
+    }
+
+
+    /* ---------- FAVORITE CARDS ---------- */
+
+    .favorites-section {
+        padding: 5rem 2rem;
+    }
+
+    .favorites-section h2 {
+        font-size: 2rem;
+    }
+
+    .favorite-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .favorite-card {
+        min-height: 170px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    /* ---------- FAVORITE ACTIVITIES ---------- */
+
+    .favorite-activities {
+        max-width: 1200px;
+        margin: auto;
+        padding: 5rem 2rem;
+
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
+    .favorite-activities-image img {
+        max-width: none;
+        height: 450px;
+    }
+
+    .favorite-activities-text {
+        text-align: left;
+    }
+
+    .favorite-activities h2 {
+        font-size: 2rem;
+    }
+
+
+    /* ---------- FAVORITE SPOT ---------- */
+
+    .favorite-spot {
+        padding: 5rem 2rem;
+
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
+    .favorite-spot-text {
+        text-align: left;
+    }
+
+    .favorite-spot h2 {
+        font-size: 2rem;
+    }
+
+    .favorite-spot-image img {
+        max-width: none;
+        height: 450px;
+    }
+
+
+    /* ---------- FAVORITE MOMENTS ---------- */
+
+    .favorite-moments {
+        padding: 5rem 2rem;
+    }
+
+    .favorite-moments h2 {
+        font-size: 2rem;
+    }
+
+    .moments-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .moments-container img {
+        height: 300px;
+    }
+
+
+    /* ---------- FAVORITE FORM ---------- */
+
+    .favorite-form {
+        padding: 5rem 2rem;
+    }
+
+    .favorite-form h2 {
+        font-size: 2rem;
+    }
+
+    .favorite-form form {
+        max-width: 500px;
+    }
+
+
+
+
+
+
+
+
+
 }

@@ -139,3 +139,221 @@ footer {
 .footer-navigation img:hover {
     transform: scale(1.1);
 }
+
+/* ---------- FAVORITES INTRO ---------- */
+
+.favorites-intro {
+    padding: 3rem 1rem;
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+}
+
+.favorites-intro-text {
+    text-align: center;
+}
+
+.favorites-intro h1 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.favorites-intro-text p {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.favorites-intro-image img {
+    width: 100%;
+    max-width: 450px;
+    height: 350px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* ---------- FAVORITE CARDS ---------- */
+
+.favorites-section {
+    padding: 3rem 1rem;
+    background-color: white;
+    text-align: center;
+}
+
+.favorites-section h2 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    margin-bottom: 2rem;
+}
+
+.favorite-cards {
+    display: grid;
+    gap: 1rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.favorite-card {
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 5px solid var(--primary-color);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, .12);
+}
+
+.favorite-card h3 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    margin-bottom: .5rem;
+}
+
+
+/* ---------- FAVORITE ACTIVITIES ---------- */
+
+.favorite-activities {
+    padding: 3rem 1rem;
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+}
+
+.favorite-activities-image img {
+    width: 100%;
+    max-width: 450px;
+    height: 350px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.favorite-activities-text {
+    text-align: center;
+}
+
+.favorite-activities h2,
+.favorite-spot h2,
+.favorite-moments h2,
+.favorite-form h2 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    margin-bottom: 1rem;
+}
+
+.favorite-activities-text p,
+.favorite-spot-text p {
+    margin-bottom: 1rem;
+}
+
+
+/* ---------- FAVORITE SPOT ---------- */
+
+.favorite-spot {
+    padding: 3rem 1rem;
+    background-color: rgb(224, 202, 159);
+
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+}
+
+.favorite-spot-text {
+    text-align: center;
+}
+
+.favorite-spot-image img {
+    width: 100%;
+    max-width: 450px;
+    height: 350px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* ---------- FAVORITE MOMENTS ---------- */
+
+.favorite-moments {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.moments-container {
+    display: grid;
+    gap: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.moments-container figure {
+    margin: 0;
+}
+
+.moments-container img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.moments-container figcaption {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: .7rem;
+    font-family: var(--heading-font);
+}
+
+
+/* ---------- FAVORITE FORM ---------- */
+
+.favorite-form {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: white;
+}
+
+.favorite-form form {
+    max-width: 450px;
+    margin: 2rem auto 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.favorite-form label {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.favorite-form select,
+.favorite-form button {
+    padding: .8rem;
+    font-family: var(--body-font);
+    border-radius: 6px;
+}
+
+.favorite-form select {
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.favorite-form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.favorite-form button:hover {
+    opacity: .85;
+}
+
+#favorite-message {
+    min-height: 2rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+

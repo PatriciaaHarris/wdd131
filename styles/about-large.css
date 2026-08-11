@@ -29,4 +29,153 @@
         gap: 2rem;
     }
 
+/* ---------- ABOUT PAGE INTRO ---------- */
+
+    .about-intro {
+        max-width: 1200px;
+        margin: auto;
+        padding: 5rem 2rem;
+
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
+    .about-intro-text {
+        text-align: left;
+    }
+
+    .about-intro h1 {
+        font-size: 3rem;
+    }
+
+    .about-intro-text p {
+        margin: 0;
+        font-size: 1.1rem;
+    }
+
+    .about-intro-image img {
+        max-width: none;
+        height: 450px;
+    }
+
+
+    /* ---------- HIS STORY ---------- */
+
+    .about-story {
+        padding: 5rem 2rem;
+
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+
+        align-items: center;
+    }
+
+    .about-story-image {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .about-story-text {
+        grid-column: 2;
+        grid-row: 1;
+        text-align: left;
+    }
+
+    .about-story h2 {
+        font-size: 2rem;
+    }
+
+    .about-story-image img {
+        max-width: none;
+        height: 450px;
+    }
+
+
+    /* ---------- PERSONALITY ---------- */
+
+    .about-personality {
+        max-width: 1200px;
+        margin: auto;
+        padding: 5rem 2rem;
+    }
+
+    .about-personality h2 {
+        font-size: 2rem;
+    }
+
+    .personality-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .personality-card {
+        min-height: 180px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    /* ---------- POMPÓN AND TOBY ---------- */
+
+    .family-life {
+        padding: 5rem 2rem;
+
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+
+        align-items: center;
+    }
+
+    .family-life-text {
+        text-align: left;
+    }
+
+    .family-life-text h2 {
+        font-size: 2rem;
+    }
+
+    .family-life-image img {
+        max-width: none;
+        height: 450px;
+    }
+
+
+    /* ---------- LIFE TODAY ---------- */
+
+    .special {
+        padding: 5rem 2rem;
+    }
+
+    .special h2 {
+        font-size: 2rem;
+    }
+
+    .special p {
+        font-size: 1.1rem;
+    }
+
+
+    /* ---------- FUN FACTS ---------- */
+
+    .fun-facts {
+        padding: 5rem 2rem;
+    }
+
+    .fun-facts h2 {
+        font-size: 2rem;
+    }
+
+    .fun-facts-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .fact-card {
+        min-height: 160px;
+    }
+
+
+
 }

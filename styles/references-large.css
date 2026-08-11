@@ -29,4 +29,19 @@
         gap: 2rem;
     }
 
+    .references-page {
+        padding: 5rem 2rem;
+    }
+
+    .references-page h1 {
+        font-size: 3rem;
+    }
+
+    .references-page h2 {
+        font-size: 2rem;
+    }
+
+
+
+
 }
