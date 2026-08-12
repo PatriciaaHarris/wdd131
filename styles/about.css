@@ -2,13 +2,16 @@
     --primary-color: #7A8F63;
     --secondary-color: #F8EFD4;
     --text-color: #1F1F1F;
+    --story-background: rgb(185, 179, 126);
+    --family-background: rgb(224, 202, 159);
+    --card-background: white;
 
     --heading-font: "Poppins", sans-serif;
     --body-font: "Open Sans", sans-serif;
 }
 
 
-/* ---------- RESET ---------- */
+
 
 * {
     margin: 0;
@@ -59,7 +62,7 @@ header {
 #menu {
     border: none;
     background: none;
-    color: white;
+    color: var(--card-background);
     font-size: 2rem;
     cursor: pointer;
 }
@@ -85,7 +88,7 @@ header {
 }
 
 .navigation a {
-    color: white;
+    color: var(--card-background);
     text-decoration: none;
 
     padding: 1rem;
@@ -154,10 +157,12 @@ footer {
 }
 
 .about-intro h1 {
-    color: var(--primary-color);
-    font-family: var(--heading-font);
-    font-size: 2rem;
+    color: var(--secondary-color);
+    background-color:var(--primary-color);
+    font-size: 5rem;
     margin-bottom: 1rem;
+    font-family: var(--heading-font);
+
 }
 
 .about-intro-text p {
@@ -171,15 +176,21 @@ footer {
     height: 350px;
     object-fit: cover;
     margin: auto;
-    border-radius: 10px;
 }
+
+
+
+
+
+
+
 
 
 /* ---------- HIS STORY ---------- */
 
 .about-story {
     padding: 3rem 1rem;
-    background-color: white;
+    background-color:var(--story-background);
 
     display: grid;
     gap: 2rem;
@@ -192,14 +203,26 @@ footer {
     height: 350px;
     object-fit: cover;
     margin: auto;
-    border-radius: 10px;
 }
+
+
+.about-story-text h2{
+    font-size: 3rem;
+    background-color:var(--secondary-color);
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    margin-bottom: 1rem;
+}
+
+
+
+
 
 .about-story-text {
     text-align: center;
 }
 
-.about-story h2,
 .about-personality h2,
 .family-life h2,
 .special h2,
@@ -215,6 +238,12 @@ footer {
 
 
 /* ---------- PERSONALITY ---------- */
+
+.about-personality h2{
+    font-size: 2rem;
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+}
 
 .about-personality {
     padding: 3rem 1rem;
@@ -234,7 +263,7 @@ footer {
 }
 
 .personality-card {
-    background-color: white;
+    background-color:var(--card-background);
     padding: 1.5rem;
     border-radius: 12px;
     border-left: 5px solid var(--primary-color);
@@ -252,7 +281,7 @@ footer {
 
 .family-life {
     padding: 3rem 1rem;
-    background-color: rgb(224, 202, 159);
+    background-color: var(--family-background);
 
     display: grid;
     gap: 2rem;
@@ -262,19 +291,31 @@ footer {
 .family-life-text {
     text-align: center;
 }
+.family-life-text h2{
+    font-size: 77px;
+}
 
 .family-life-text p {
     margin-bottom: 1rem;
+    background-color: #7A8F63;
 }
 
 .family-life-image img {
     width: 100%;
     max-width: 450px;
-    height: 350px;
     object-fit: cover;
     margin: auto;
-    border-radius: 10px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* ---------- LIFE TODAY ---------- */
@@ -289,6 +330,11 @@ footer {
 .special p {
     margin-bottom: 1rem;
 }
+.life-today-image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
 
 
 /* ---------- FUN FACTS ---------- */
@@ -296,7 +342,7 @@ footer {
 .fun-facts {
     padding: 3rem 1rem;
     text-align: center;
-    background-color: white;
+    background-color:var(--card-background);
 }
 
 .fun-facts-container {

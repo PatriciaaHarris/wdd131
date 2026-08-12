@@ -133,12 +133,11 @@
     }
 
     .family-life-text h2 {
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     .family-life-image img {
         max-width: none;
-        height: 450px;
     }
 
 
@@ -154,6 +153,9 @@
 
     .special p {
         font-size: 1.1rem;
+    }
+    .life-today-image img {
+        height: 220px;
     }
 
 
